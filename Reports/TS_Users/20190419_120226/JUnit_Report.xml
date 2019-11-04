@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Users" time="10" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Users" tests="1" failures="0" errors="0" time="10" timestamp="2019-04-19 12:02:40" hostname="poornima - DESKTOP-6QOUN2I" id="Test Suites/TS_Users">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\poornima\\Downloads\\Katalon_Studio_Project_Working\\SampleProject\\Reports\\TS_Users\\20190419_120226"/>
+         <property name="logFiles" value="C:\\Users\\poornima\\Downloads\\Katalon_Studio_Project_Working\\SampleProject\\Reports\\TS_Users\\20190419_120226\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="poornima - DESKTOP-6QOUN2I"/>
+         <property name="hostAddress" value="192.168.25.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+      </properties>
+      <testcase name="Test Cases/ListUsers" classname="Test Cases/ListUsers" status="PASSED">
+         <system-out><![CDATA[2019-04-19 12:02:40 - [TEST_CASE][PASSED] - Test Cases/ListUsers: Test Cases/ListUsers
+
+2019-04-19 12:02:41 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("ListUsers")): Send request and verify the response successfully
+
+2019-04-19 12:02:49 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-04-19 12:02:50 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-04-19 12:02:50 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-04-19 12:02:50 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-04-19 12:02:50 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-19 12:02:40 - [TEST_SUITE][PASSED] - TS_Users: Test Cases/ListUsers]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

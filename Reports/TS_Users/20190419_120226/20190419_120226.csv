@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Users,,,2019-04-19 12:02:40,2019-04-19 12:02:50,10.472s,PASSED
+,,,,,,
+Test Cases/ListUsers,,using get,2019-04-19 12:02:40,2019-04-19 12:02:50,9.617s,PASSED
+"sendRequestAndVerify(findTestObject(""ListUsers""))",,,2019-04-19 12:02:41,2019-04-19 12:02:50,8.961s,PASSED

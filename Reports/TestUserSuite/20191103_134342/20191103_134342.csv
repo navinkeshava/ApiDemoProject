@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestUserSuite,,,2019-11-03 13:43:58,2019-11-03 13:44:12,14.330s,FAILED
+,,,,,,
+Test Cases/TestHTTPMethods,,,2019-11-03 13:43:58,2019-11-03 13:44:08,9.340s,PASSED
+"response = sendRequest(findTestObject(""UserRestServices/ListUsers""))",,,2019-11-03 13:43:59,2019-11-03 13:44:04,4.823s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestServices/CreateUser""))",,,2019-11-03 13:44:04,2019-11-03 13:44:05,1.451s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestServices/UpdateUser""))",,,2019-11-03 13:44:05,2019-11-03 13:44:07,1.402s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestServices/DeleteUser""))",,,2019-11-03 13:44:07,2019-11-03 13:44:08,0.983s,PASSED
+,,,,,,
+Test Cases/ListUserTestCase,,,2019-11-03 13:44:08,2019-11-03 13:44:10,2.049s,FAILED
+"response = sendRequest(findTestObject(""UserRestServices/ListUsers""))",,,2019-11-03 13:44:08,2019-11-03 13:44:09,0.832s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestServices/ListUsers""))",,,2019-11-03 13:44:09,2019-11-03 13:44:09,0.344s,PASSED
+"verifyElementPropertyValue(response, ""data[2].first_name"", ""Tobias"")",,,2019-11-03 13:44:09,2019-11-03 13:44:09,0.064s,PASSED
+"verifyElementPropertyValue(response, ""data[4].first_name"", ""George"")",,,2019-11-03 13:44:09,2019-11-03 13:44:09,0.021s,PASSED
+"verifyElementsCount(response, ""data"", 5, CONTINUE_ON_FAILURE)",,,2019-11-03 13:44:09,2019-11-03 13:44:09,0.034s,FAILED
+"verifyElementsCount(response, ""data"", 6)",,,2019-11-03 13:44:09,2019-11-03 13:44:09,0.024s,PASSED
+"verifyResponseStatusCodeInRange(response, 100, 200)",,,2019-11-03 13:44:09,2019-11-03 13:44:09,0.012s,PASSED
+"verifyResponseStatusCodeInRange(response, 100, 500)",,,2019-11-03 13:44:09,2019-11-03 13:44:09,0.006s,PASSED
+"verifyAlertPresent(0, CONTINUE_ON_FAILURE)",,,2019-11-03 13:44:09,2019-11-03 13:44:10,0.373s,FAILED
+,,,,,,
+Test Cases/CreateUserTestCase,,,2019-11-03 13:44:10,2019-11-03 13:44:12,1.992s,PASSED
+"sendRequest(findTestObject(""UserRestServices/CreateUser""), CONTINUE_ON_FAILURE)",,,2019-11-03 13:44:10,2019-11-03 13:44:11,0.927s,PASSED
+"response = sendRequestAndVerify(findTestObject(""UserRestServices/CreateUser""))",,,2019-11-03 13:44:11,2019-11-03 13:44:12,0.795s,PASSED
+"verifyResponseStatusCode(response, 201)",,,2019-11-03 13:44:12,2019-11-03 13:44:12,0.004s,PASSED
